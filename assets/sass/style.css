@@ -1,0 +1,371 @@
+* {
+    -moz-transition: all 0.3s ease;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease;
+}
+body {
+    margin: 0;
+    padding:0;
+    font-family: 'Gilroy-Light', sans-serif;
+    font-size: 18px;
+    overflow-x: hidden;
+    position: relative;
+    background: #faf9f4;
+}
+div, button, li, ul, input {
+    box-sizing: border-box;
+}
+a, a:hover, a:active, a:focus, button, button:hover,
+button:active, button:focus, input, input:active, input:focus {
+    text-decoration: none;
+    outline: none;
+}
+h1, h2, h3 {
+    margin-bottom: 0;
+}
+ul, li {
+    padding:0;
+    margin:0;
+    display: block;
+}
+.clearfix:after {
+    content: ’’;
+    display: table;
+    width: 100%;
+    clear: both;
+}
+p {
+    line-height: 1.4em;/*-----задать-----*/
+}
+@font-face {
+  font-family: 'Gilroy-ExtraBold';
+  src: url('../font/Gilroy-ExtraBold.eot');
+  src: url('../font/Gilroy-ExtraBold.eot?#iefix') format('embedded-opentype'),
+       url('../font/Gilroy-ExtraBold.woff2') format('woff2'),
+       url('../font/Gilroy-ExtraBold.woff') format('woff'),
+       url('../font/Gilroy-ExtraBold.ttf')  format('truetype'),
+       url('../font/Gilroy-ExtraBold.svg#svgFontName') format('svg');
+}
+@font-face {
+  font-family: 'Gilroy-Light';
+  src: url('../font/Gilroy-Light.eot');
+  src: url('../font/Gilroy-Light.eot?#iefix') format('embedded-opentype'),
+       url('../font/Gilroy-Light.woff2') format('woff2'),
+       url('../font/Gilroy-Light.woff') format('woff'),
+       url('../font/Gilroy-Light.ttf')  format('truetype'),
+       url('../font/Gilroy-Light.svg#svgFontName') format('svg');
+}
+.father-heading {
+    font-size: 40px;
+    font-family: 'Gilroy-ExtraBold';
+    color: #faf9f4;
+    text-shadow: 2px 3px 7px #c0c0c0;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+/*header*/
+
+canvas {
+    background: #141112;
+    width: 100%;
+    height: 100vh;
+    z-index: 9;
+}
+.hello__heading {
+    z-index: 10;
+}
+.hello__heading h1 {
+    font-family: 'Gilroy-ExtraBold';
+    color: #198f31;
+    font-size: 65px;
+    margin-left: -101.2px;
+    margin-top: 10px;
+    position: absolute;
+    left: 50%;
+    top: -100vh;
+}
+.hello__heading h2 {
+    font-family: 'Gilroy-ExtraBold';
+    color: #198f31;
+    font-size: 44px;
+    margin-left: -192.5px;
+    position: absolute;
+    left: 50%;
+    top: -87vh;
+}
+.hello__heading h3 {
+    font-family: 'Gilroy-Light';
+    color: #cccaa2;
+    font-size: 50px;
+    position: absolute;
+    left: 0%;
+    top: -70vh;
+}
+.hello__transition {
+    z-index: 10;
+}
+.hello__portfolio {
+    font-family: 'Gilroy-Light';
+    color: #cccaa2;
+    font-size: 21px;
+    position: absolute;
+    left: 20%;
+    top: -30vh;
+}
+.hello__setup {
+    font-family: 'Gilroy-Light';
+    color: #cccaa2;
+    font-size: 21px;
+    position: absolute;
+    left: 65%;
+    top: -30vh;
+}
+.hello__portfolio:hover, .hello__setup:hover {
+    color: #198f31;
+}
+.hello__link img {
+    position: absolute;
+    width: 50px;
+    top: -15vh;
+    transition: all 3s else;
+}
+.hello__link img:hover {
+    transform: rotate(360deg);
+}
+.link {
+    left: 0%;
+}
+
+/*I*/
+
+.i__heading {
+
+}
+.i__heading h2 {
+
+}
+.i__block {
+    width: 100%;
+    height: 200px;
+    margin-top: 60px;
+    box-shadow: 2px 4px 15px #c0c0c0;
+}
+.i__info {
+    float: left;
+}
+.i__info h3 {
+    font-size: 18px;
+    padding: 50px 0 0 50px;
+}
+.i__info span {
+    font-weight: 900;
+}
+.i__photo {
+    
+}
+.i__photo img {
+    float: right;
+    margin: 10px 25px 0 0;
+}
+
+/*skill*/
+.skill__heading {
+    margin-bottom: 60px;
+}
+.skill__all, .skill__front, .skill__back {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: 150px;
+}
+.skill__front, .skill__back {
+    float: left;
+}
+.skill__all:hover .skill__front {
+    margin-left:-300px;
+}
+.skill__back {
+    margin-left:-600px;
+}
+.skill__all:hover .skill__back {
+    margin-left:0;
+    margin-top: 0;
+}
+.skill__all {
+    background: #faf9f4;
+    margin-bottom: 25px;
+    overflow:hidden;
+    box-shadow: 2px 4px 15px #c0c0c0;
+}
+.skill__all:nth-child(7){
+    margin-bottom: 0px;
+}
+.skill__all:nth-child(8){
+    margin-bottom: 0px;
+}
+.skill__all:nth-child(9){
+    margin-bottom: 0px;
+}
+.skill__front h2{
+    text-align: center;
+    font-family: 'Gilroy-ExtraBold';
+    line-height: 150px;
+    font-size: 30px;
+    color: #515151;
+}
+.skill__back img{
+    margin: 0;
+    padding: 0;
+}
+.skill__back img:last-child {
+    width: 110px;
+}
+
+/*stages*/
+
+.stages__heading {
+    margin-top: 30px;
+}
+.stages__block {
+    width: 100%;
+    margin-top: 60px;
+    box-shadow: 2px 4px 15px #c0c0c0;
+    margin-bottom: 60px;
+}
+.stages__text {
+
+}
+.stages__text p {
+    padding: 30px 0 10px 60px;
+}
+.stages__text span {
+    font-weight: 900;
+}
+
+/*footer*/
+
+.footer {
+    width: 100vw;
+    background: #131011;
+}
+.footer__text {
+    text-align: center;
+}
+.footer__text h3 {
+    margin: 20px 0 0px 0;
+    font-size: 18px;
+    color: #cccaa2;
+}
+.footer__text a {
+    color: #cccaa2;
+}
+.footer__text a:hover {
+    color: #198f31;
+}
+.footer img {
+    margin: 30px 0 20px 0;
+    width: 50px;
+    transition: all 3s else;
+}
+.footer img:hover {
+    transform: rotate(360deg);
+}
+
+/*portfolio*/
+
+
+.width {
+    position: relative;
+    height: 400px;
+}
+
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 486px;
+    height: 324px;
+    background: none;
+    border-radius: 0;
+}
+.card .image {
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+}
+.card .image img {
+    width: 100%;
+    transition: .5s;
+}
+.card:hover .image img {
+    opacity: .5;
+    transform: translateX(30%);/*100%*/
+}
+.card .details {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;/*100%*/
+    height: 100%;
+    background: #515151;
+    transition: .5s;
+    transform-origin: left;
+    transform: perspective(2000px) rotateY(-90deg);
+}
+.card:hover .details {
+    transform: perspective(2000px) rotateY(0deg);
+}
+.card .details .center {
+    padding: 20px;
+    text-align: center;
+    background: #515151;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.card .details .center h1 {
+    font-family: 'Gilroy-ExtraBold';
+    margin: 0;
+    padding: 0;
+    color: #cccaa2;
+    line-height: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.card .details .center h1 span {
+    font-size: 14px;
+    color: #cccaa2;
+}
+.card .details .center p {
+    font-family: 'Gilroy-Light';
+    margin: 10px 0;
+    padding: 0;
+    color: #faf9f4;
+}
+.card .details .center ul {
+    margin: 10px auto 0;
+    padding: 0;
+    display: table;
+}
+.card .details .center ul li {
+    list-style: none;
+    margin: 0 5px;
+    float: left;
+}
+.card .details .center ul li a {
+    display: block;
+    background: #cccaa2;
+    color: #515151;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    transform: .5s;
+}
+.card .details .center ul li a:hover {
+    background: #515151;
+    color: #cccaa2;
+}

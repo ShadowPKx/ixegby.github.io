@@ -1,0 +1,480 @@
+/*//////////1199-991 (КОМП)//////////*/
+@media only screen and (max-device-width : 1199px) {
+	.card {
+	    width: 386px;
+	    height: 256px;
+  	}
+  	.width {
+	    position: relative;
+	    height: 17em;
+  	}
+
+/*//////////991-767 (ПЛАНШЕТ)//////////*/
+@media only screen and (max-device-width : 991px) {
+	.hello__heading h1 {
+	    font-size: 3em;
+	    margin-left: -85.5px;
+	}
+	.hello__heading h2 {
+	    font-size: 1.7em;
+	    margin-left: -132.5px;
+	    top: -87vh;
+	}
+	.hello__heading h3 {
+	    font-size: 2.2em;
+	    top: -65vh;
+	}
+	.hello__portfolio {
+    	left: 13%;
+    }
+    .hello__setup {
+    	left: 63%;
+    }
+    .hello__link img {
+	    width: 40px;
+	    top: -15vh;
+	}
+	.i__info h3 {
+	    font-size: 0.8em;
+	    padding: 55px 0 0 20px;
+	}
+	.skill__all {
+    	width: 100%;
+    }
+    .skill__all, .skill__front, .skill__back {
+    	width: 100%;
+    	height: 100px;
+    }
+    .skill__back img {
+    	height: 100px;
+    }
+    .skill__back img:last-child {
+	    width: 80px;
+	    height: 80px;
+   }
+   .skill__front h2 {
+    	font-size: 1.2em;
+    	line-height: 100px;
+    }
+    .stages__text p {
+    	font-size: 0.8em;
+    }
+    .footer__text h3 {
+    	font-size: 0.8em;
+    }
+    .footer img {
+    	width: 40px;
+    }
+    .card {
+		width: 316px;
+		height: 209.33px;
+	}
+	.card .details .center h1 {
+	    font-size: 0.8em;
+	}
+	.card .details .center h1 span {
+	    font-size: 0.8em;
+	}
+	.card .details .center p {
+	    font-size: 0.8em;
+	}
+	.width {
+	    height: 14em;
+	}
+}
+
+/*//////////767-576 (ПЛАНШЕТ)//////////*/
+@media only screen and (max-device-width : 767px) {
+	.hello__heading h1 {
+	    font-size: 2.6em;
+	    margin-left: -74.3px;
+	}
+	.hello__heading h2 {
+	    font-size: 1.3em;
+	    margin-left: -101.5px;
+	    top: -92vh;
+	}
+	.hello__heading h3 {
+    	font-size: 2em;
+    }
+    .hello__portfolio {
+    	font-size: 0.9em;
+    	left: 14%;
+    	top: -24vh;
+    }
+    .hello__setup {
+    	font-size: 0.9em;
+    	top: -24vh;
+    }
+    .hello__link img {
+	    width: 30px;
+	    top: -12vh;
+	}
+	.i__heading h2 {
+		font-size: 0.7em;
+	}
+	.skill__heading {
+	    margin-bottom: 0.9em;
+	}
+	.skill__heading h2{
+		font-size: 0.7em;
+	}
+	.stages__heading h2{
+	    font-size: 0.7em;
+	}
+	.father-heading {
+	    margin-top: 0.9em;
+	    margin-left: 0.5em;
+	}
+	.i__info h3 {
+	    font-size: 0.65em;
+	    padding: 60px 0 0 10px;
+	}
+	.i__photo img {
+	    margin: 26px 10px 0 0;
+	    width: 150px;
+	}
+	.i__block {
+    	margin-top: 2.5em;
+    }
+    .stages__block {
+    	margin-top: 2.5em;
+    }
+    .skill__back img {
+	    height: 74px;
+	}
+	.skill__back img:last-child {
+	    width: 55px;
+	    height: 55px;
+	}
+	.skill__all, .skill__front, .skill__back {
+	    height: 76px;
+	}
+	.skill__front h2 {
+	    font-size: 1em;
+	    line-height: 76px;
+	}
+	.stages__text p {
+	    font-size: 0.6em;
+	    padding: 30px 0 10px 40px;
+	}
+	.footer__text h3 {
+	    font-size: 0.6em;
+	    margin: 13px 0 0px 0;
+	}
+	.footer img {
+	    width: 30px;
+	    margin: 17px 0 20px 0;
+	}
+	.card {
+	    width: 246px;
+	    height: 162.66px;
+	}
+	.card .details .center h1 {
+	    font-size: 0.6em;
+	    line-height: 1.2em;
+	}
+	.card .details .center h1 span {
+	    font-size: 0.8em;
+	}
+	.card .details .center p {
+	    font-size: 0.5em;
+	}
+	.width {
+	    height: 11em;
+	}
+}
+
+/*//////////575 (СМАРТФОН)//////////*/
+@media only screen and (max-device-width : 575px) {
+	.hello__heading h1 {
+	    font-size: 2em;
+	    margin-left: -57px;
+	}
+	.hello__heading h2 {
+	    font-size: 1.2em;
+	    margin-left: -93.5px;
+	    top: -94vh;
+	}
+	.hello__heading h3 {
+	    font-size: 1.9em;
+	    left: 1em;
+	}
+	.hello__link img {
+	    right: 0.68em;
+	    width: 25px;
+	}
+	.display-none {
+		display: none;
+	}
+	.hello__link img {
+	    right: 1.6em;
+	    width: 36px;
+	}
+	.i__heading h2 {
+	    font-size: 0.6em;
+	}
+	.skill__heading {
+	    margin-bottom: 0.5em;
+	}
+	.skill__heading h2 {
+        font-size: 0.6em;
+	}
+	.stages__heading h2 {
+        font-size: 0.6em;
+	}
+	.i__info h3 {
+	    font-size: 0.6em;
+	    padding: 55px 0 0 10px;
+	}
+	.i__photo img {
+	    margin: 17px 5px 0 0;
+	    width: 140px;
+	}
+	.i__block {
+    	height: 170px;
+    	margin-top: 1em;
+    }
+    .stages__block {
+	    width: 95%;
+	    margin: 1.1em auto;
+	}
+	.footer img {
+	    width: 30px;
+	    margin: 17px 0 15px 0.6em;
+	}
+}
+
+/*//////////520-453 (СМАРТФОН)//////////*/
+@media only screen and (max-device-width : 520px) {
+	.hello__link img {
+	    right: 1.4em;
+	    width: 34px;
+	}
+	.i__photo img {
+	    margin: 32px 5px 0 0;
+	    width: 110px;
+	}
+	.skill__back img:last-child {
+	    width: 45px;
+	    height: 45px;
+	}
+	.skill__back img {
+	    height: 66px;
+	}
+	.skill__all, .skill__front, .skill__back {
+	    height: 68px;
+	}
+	.skill__front h2 {
+	    font-size: 0.8em;
+	    line-height: 68px;
+	}
+	.card {
+	    width: 206px;
+	    height: 136px;
+	}
+	.width {
+	    height: 9.2em;
+	}
+	.card .details .center {
+	    padding: 0.4em;
+	}
+	.card .details .center h1 {
+	    font-size: 0.6em;
+	    line-height: 1.2em;
+	}
+	.card .details .center h1 span {
+	    font-size: 0.8em;
+	}
+	.card .details .center p {
+	    line-height: 1.1em;
+	    font-size: 0.5em;
+	}
+}
+
+/*//////////453-425 (СМАРТФОН)//////////*/
+@media only screen and (max-device-width : 453px) {
+	.hello__heading h3 {
+    	font-size: 1.3em;
+    }
+    .hello__link img {
+	    width: 24px;
+	}
+	.hello__portfolio {
+	    font-size: 0.7em;
+	    left: 10%;
+	}
+	.hello__setup {
+    	font-size: 0.7em;
+    }
+    .i__info h3 {
+	    font-size: 0.45em;
+	    padding: 35px 0 0 7px;
+	}
+	.i__photo img {
+	    margin: 11px 5px 0 0;
+	    width: 100px;
+	}
+	.i__block {
+    	height: 120px;
+    }
+    .skill__back img {
+	    height: 60px;
+	}
+	.skill__back img:last-child {
+	    width: 40px;
+	    height: 40px;
+	}
+	.skill__all, .skill__front, .skill__back {
+	    height: 60px;
+	}
+	.skill__front h2 {
+	    font-size: 0.7em;
+	    line-height: 60px;
+	}
+	.stages__text p {
+	    font-size: 0.45em;
+	    padding: 20px 0 0px 20px;
+	}
+	.footer img {
+    	width: 22px;
+    }
+    .footer__text h3 {
+    	font-size: 0.5em;
+    }
+    .card {
+	    width: 166px;
+	    height: 109.33px;
+	}
+	.card .details .center h1 {
+	    font-size: 0.5em;
+	}
+	.card .details .center p {
+	    font-size: 0.4em;
+	}
+	.card .center ul li a i{
+	    font-size: 0.6em;
+	}
+	.card .details .center ul li a {
+	    width: 1em;
+	    height: 1em;
+	    line-height: 0.7em;
+	}
+	.width {
+	    height: 7em;
+	}
+}
+
+/*//////////424-369 (СМАРТФОН)//////////*/
+@media only screen and (max-device-width : 424px) {
+	.hello__heading h1 {
+	    font-size: 1.6em;
+	    margin-left: -45.5px;
+	}
+	.hello__heading h2 {
+	    font-size: 1em;
+	    margin-left: -78.1px;
+	    top: -93vh;
+	}
+	.hello__setup {
+	    top: -19vh;
+	}
+	.hello__portfolio {
+	    top: -19vh;
+	}
+	.i__heading h2 {
+	    font-size: 0.5em;
+	}
+	.skill__heading h2 {
+        font-size: 0.5em;
+	}
+	.stages__heading h2 {
+        font-size: 0.5em;
+	}
+	.i__photo img {
+	    margin: 16px 5px 0 0;
+	    width: 90px;
+	}
+	.skill__back img {
+	    height: 50px;
+	}
+	.skill__back img:last-child {
+	    width: 35px;
+	    height: 35px;
+	}
+	.skill__all, .skill__front, .skill__back {
+	    height: 51px;
+	}
+	.skill__front h2 {
+	    font-size: 0.5em;
+	    line-height: 50px;
+	}
+	.footer__text h3 {
+	    font-size: 0.45em;
+	}
+	.skill__all {
+		box-shadow: 1px 3px 9px #c0c0c0;
+    	margin-bottom: 10px;
+    }
+    .father-heading {
+    	margin-top: 0.5em;
+    }
+    .hello__link img {
+    	right: 1.3em;
+    }
+    .footer img {
+    	margin: 17px 0 15px 0.3em;
+    }
+}
+
+/*//////////368 (СМАРТФОН)//////////*/
+@media only screen and (max-device-width : 368px) {
+	.hello__link img {
+	    right: 1em;
+	}
+	.i__photo img {
+	    margin: 19px 2px 0 0;
+	    width: 82px;
+	}
+	.i__info h3 {
+	    font-size: 0.38em;
+	    padding: 35px 0 0 4px;
+	}
+	.skill__back img:last-child {
+	    width: 30px;
+	    height: 30px;
+	}
+	.skill__back img {
+	    height: 40px;
+	}
+	.skill__front h2 {
+	    line-height: 40px;
+	}
+	.skill__all, .skill__front, .skill__back {
+	    height: 41px;
+	}
+	.stages__text p {
+	    font-size: 0.4em;
+	    padding: 20px 0 0px 20px;
+	}
+	.footer__text h3 {
+	    font-size: 0.4em;
+	}
+	.footer img {
+	    width: 18px;
+	    margin: 17px 0 15px 0.2em;
+	}
+	.card .details .center h1 span {
+	    display: none;
+	}
+	.card {
+	    width: 136px;
+	    height: 89.33px;
+	}
+	.card .details .center p {
+	    font-size: 0.3em;
+	}
+	.card .details .center p {
+	    margin: 5px 0;
+	}
+	
